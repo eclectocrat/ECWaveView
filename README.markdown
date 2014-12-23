@@ -1,11 +1,6 @@
-JJWaveView - A clean-room implementation of ArkWaveView
-=======================================================
+ECWaveView - A clean-room implementation of JJWaveView, er, ArkWaveView, er, My code from 10 years ago!
+=======================================================================================================
 
-[ArkWaveView] [awv] is a (and perhaps the only) implementation to
-browse sound tracks in 2D graphical form with Cocoa and C++. The
-only catch is it requires a lot of libraries like MOKit and libsndfile.
-This implementation (JJWaveView) aims to remove most of the requirements,
-use Mac OS X (10.5+) core frameworks like Core Audio to replace them.
+Awesome! Someone saved my code and now I have the opportunity to see how crappy a coder I was before. Maybe I can even get this running in some capacity!
 
-[awv]: http://www.cocoadev.com/index.pl?ArkonnektSound "ArkWaveView"
-
+Seriously though, I'd like to make this C++ 11 code and remove as many dependencies as I can.

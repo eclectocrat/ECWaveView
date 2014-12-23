@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7D532C18-F462-49A6-8EC0-4C0A46D6CF00</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WaveView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3F8F3776CB2D3DA79AF93058D214BC36F6F42CF4</key>
+		<string>github.com:eclectocrat/JJWaveView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WaveView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3F8F3776CB2D3DA79AF93058D214BC36F6F42CF4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:eclectocrat/JJWaveView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3F8F3776CB2D3DA79AF93058D214BC36F6F42CF4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3F8F3776CB2D3DA79AF93058D214BC36F6F42CF4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ECWaveView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

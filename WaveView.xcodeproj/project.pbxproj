@@ -11,6 +11,9 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D637E3211A49FFDF00BCBF6B /* ArkLinePrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = D637E31D1A49FFDF00BCBF6B /* ArkLinePrefs.m */; };
+		D637E3221A49FFDF00BCBF6B /* ArkWaveView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D637E31F1A49FFDF00BCBF6B /* ArkWaveView.mm */; };
+		D637E3241A49FFE900BCBF6B /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = D637E3231A49FFE900BCBF6B /* README.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,12 @@
 		32CA4F630368D1EE00C91783 /* WaveView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* WaveView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D637E31C1A49FFDF00BCBF6B /* ArkLinePrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArkLinePrefs.h; sourceTree = "<group>"; };
+		D637E31D1A49FFDF00BCBF6B /* ArkLinePrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArkLinePrefs.m; sourceTree = "<group>"; };
+		D637E31E1A49FFDF00BCBF6B /* ArkWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArkWaveView.h; sourceTree = "<group>"; };
+		D637E31F1A49FFDF00BCBF6B /* ArkWaveView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArkWaveView.mm; sourceTree = "<group>"; };
+		D637E3201A49FFDF00BCBF6B /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		D637E3231A49FFE900BCBF6B /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,11 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D637E31C1A49FFDF00BCBF6B /* ArkLinePrefs.h */,
+				D637E31D1A49FFDF00BCBF6B /* ArkLinePrefs.m */,
+				D637E31E1A49FFDF00BCBF6B /* ArkWaveView.h */,
+				D637E31F1A49FFDF00BCBF6B /* ArkWaveView.mm */,
+				D637E3201A49FFDF00BCBF6B /* Utility.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -74,6 +88,7 @@
 		29B97314FDCFA39411CA2CEA /* WaveView */ = {
 			isa = PBXGroup;
 			children = (
+				D637E3231A49FFE900BCBF6B /* README.markdown */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -137,9 +152,15 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WaveView" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* WaveView */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -166,7 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D637E3221A49FFDF00BCBF6B /* ArkWaveView.mm in Sources */,
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				D637E3241A49FFE900BCBF6B /* README.markdown in Sources */,
+				D637E3211A49FFDF00BCBF6B /* ArkLinePrefs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
